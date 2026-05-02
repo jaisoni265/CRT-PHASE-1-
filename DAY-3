@@ -35,6 +35,23 @@ int main() {
 }
 
 
+ 💎 PROBLEM 04: ODD NUMBERS ⚡
+// 📝 Task: Print odd numbers from 1 to 10 using while
+// ==============================================
+
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int i = 1;
+//     while(i <= 10){
+//         cout << i << " ";
+         i+=2;
+//     }
+// }
+
+
+
 //problem 5
 // Print 1 to 10 using do-whie loop
 
@@ -67,7 +84,7 @@ int main() {
 }
 
 
-//problem 6 
+//problem 7
 // Prime numbers
 
 #include <iostream>
@@ -95,4 +112,23 @@ int main(){
     cout << "It is not a prime number...";
     }
 }
+
+
+💎 PROBLEM 08: SMART PHONE UNLOCK 🔓
+// 📝 Task: Repeatedly ask for PIN until correct
+// ==============================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int password;
     
+    do{
+        cout << "Enter your password here...";
+        cin >> password;
+    } while(password != 1234);
+    
+    cout << "Phone Unlocked...";
+}
+
