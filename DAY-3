@@ -1,0 +1,67 @@
+// Problem 1 
+// Print 1 to 10 using for loop
+#include <iostream>
+using namespace std;
+
+int main() {
+    for(int i = 1; i <=10; i++){
+        cout <<i << "";
+    }
+}
+
+
+// Problem 2  
+// Print even numbers from 0 to 10
+#include <iostream>
+using namespace std;
+
+int main() {
+    for(int i = 0; i <=10; i += 2){
+        cout << i << "";
+    }
+}
+
+//problem 3
+// Print 1 to 10 using for whie loop
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i = 1;
+    while(i <= 10){
+        cout << i << "";
+        i++;
+    }
+}
+
+
+//problem 5
+// Print 1 to 10 using do-whie loop
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i = 1;
+    do {
+        cout << i << "";
+        i++;
+    } while (i <= 10);
+}
+
+
+//problem 6 
+// Factorial of a numbers
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    int fact =1;
+    
+    for(int i = n; i >=1; i--) {
+        fact = fact * i;
+    }
+    cout << fact;
+}
